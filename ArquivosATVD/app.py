@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Blueprint
-from controller import blueprint01
+from controller.controller import blueprint01
 
 app = Flask(__name__)
 app.register_blueprint(blueprint01)

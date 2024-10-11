@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atvd MVC Escalável</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Login com Middleware e Sessões</title>
+    <link rel="stylesheet" href={{url_for('static', filename='styles.css')}}>
 </head>
 <body>
-    
+    <div id="container">Seje bem-vinde, user. Faça o login a seguir.</div>
+    <div id="main"></div>
+    <form id="user-login">
+        <label for="campo1">Nome de Usuário:
+            <input type="text" id="campo1" name="campo1" placeholder="Digite o seu nome de usuário"> </label><br>
+        <label for="campo1">Senha: </label>
+            <input type="text" id="campo2" name="campo2" placeholder="Digite a sua Senha"> </label><br>
+        </form>
 </body>
 </html>
